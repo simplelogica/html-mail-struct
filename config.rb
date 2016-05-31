@@ -10,6 +10,7 @@ require 'sass-globbing'
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+page '/email/*', layout: :email
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
@@ -20,6 +21,7 @@ page '/*.txt', layout: false
 
 # General configuration
 activate :sprockets
+activate :roadie
 config[:js_dir] = 'assets/javascripts'
 config[:css_dir] = 'assets/stylesheets'
 config[:fonts_dir] = 'assets/fonts'

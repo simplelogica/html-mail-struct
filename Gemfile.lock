@@ -38,6 +38,8 @@ GEM
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.0.2)
     contracts (0.13.0)
+    css_parser (1.3.7)
+      addressable
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -97,7 +99,13 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    middleman-roadie (0.1.2)
+      middleman-core (>= 4.1.2)
+      roadie (~> 3.1.1)
+    mini_portile2 (2.0.0)
     minitest (5.9.0)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
     padrino-helpers (0.13.2)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.13.2)
@@ -111,6 +119,9 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    roadie (3.1.1)
+      css_parser (~> 1.3.4)
+      nokogiri (>= 1.5.0, < 1.7.0)
     sass (3.4.22)
     sass-globbing (1.1.5)
       sass (>= 3.1)
@@ -133,6 +144,7 @@ DEPENDENCIES
   gintonic-rails!
   middleman (~> 4.1.0)
   middleman-livereload
+  middleman-roadie
   middleman-sprockets!
   sass-globbing (~> 1.1.1)
   tzinfo-data
