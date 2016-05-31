@@ -6,9 +6,9 @@
   <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
   <!-- Use title if it's in the page YAML frontmatter -->
-  <title><%= current_page.data.title || "Middleman" %></title>
+  <title>Responsive email blocks</title>
 
-  <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
 
   <%= stylesheet_link_tag 'demo-site' %>
 
@@ -16,6 +16,11 @@
   <%= javascript_include_tag 'demo-site' %>
 </head>
 <body class="<%= page_classes %>">
-  <iframe src="/email/blocks/b-sample.html" frameborder="0" width="768" height="400"></iframe>
+  <h1>Sample email blocks</h1>
+  <div class="row">
+    <p class="block-title">b-sample.html</p>
+    <iframe src="/email/blocks/b-sample.html" class="fr-desktop" frameborder="0"></iframe>
+    <iframe src="/email/blocks/b-sample.html" class="fr-mobile" frameborder="0"></iframe>
+  </div>
 </body>
 </html>

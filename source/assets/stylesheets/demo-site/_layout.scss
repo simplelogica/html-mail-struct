@@ -1,3 +1,28 @@
 //
 // Layout and grid
 //
+body {
+  margin: 0; padding: 0;
+  background-color: #fafafa;
+  color: #333;
+}
+.row {
+  padding: 48px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+
+  &:first-of-type {
+    padding-top: 0;
+  }
+}
+iframe {
+  float: left;
+  margin-right: 32px;
+  border: 1px dashed #ccc;
+}
+.fr-desktop {
+  width: 768px;
+}
+.fr-mobile {
+  width: 320px;
+}

@@ -1,3 +1,18 @@
 //
 // Font import and base tipography styles
 //
+body, ol, ul, li, dl, dt, dd, address, abbr, dfn, blockquote, pre, code, kbd, samp, cite, q, figcaption, sub, sup, small, p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 48px 0 16px 48px;
+}
+.block-title {
+  display: block;
+  font-style: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
