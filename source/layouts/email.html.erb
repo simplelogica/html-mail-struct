@@ -1,16 +1,25 @@
 <!doctype html>
-<html>
+<html xmlns:v="urn:schemas-microsoft-com:vml">
 <head>
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta charset="utf-8">
   <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
-  <!-- Use title if it's in the page YAML frontmatter -->
-  <title><%= current_page.data.title || "Email " %></title>
+  <title><%= current_page.data.title || "Email title" %></title>
+
   <%= stylesheet_inline_tag 'email' %>
   <%= stylesheet_inline_tag 'email-mobile', false %>
 </head>
 <body>
-  <%= yield %>
+  <table width="100%" cellspacing="0" cellpadding="0" border="0" class="newsletter-container">
+    <tr>
+      <td class="hide-on-mobile">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="newsletter-content"><%= yield %></td>
+    </tr>
+    <tr>
+      <td class="hide-on-mobile">&nbsp;</td>
+    </tr>
 </body>
 </html>

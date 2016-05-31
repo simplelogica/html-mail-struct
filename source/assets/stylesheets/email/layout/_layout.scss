@@ -1,0 +1,74 @@
+//
+// Layout and grid
+//
+html, body {
+  background: $color-main-bg;
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+}
+.msoFix {
+  mso-table-lspace: -1pt;
+  mso-table-rspace: -1pt;
+}
+.half {
+  width: 50%;
+}
+.v-bottom {
+  vertical-align: bottom;
+}
+.v-top {
+  vertical-align: top;
+}
+.v-middle {
+  vertical-align: middle;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.tac {
+  text-align: center;
+}
+.tal {
+  text-align: left;
+}
+.tar {
+  text-align: right;
+}
+
+// Width helpers, creates .wXX and .colXX classes
+$wid-sizes: 10 20 25 30 33 40 50 60 66 70 80 90 100;
+@each $wid in $wid-sizes {
+  .w#{$size} {
+    width: #{$size}%;
+  }
+  .col#{$size} {
+    width: #{$size}%;
+  }
+}
+
+// Padding / margin helpers 8px increments
+// Need more? Simply add them to the list
+$padding-margin-sizes:  0 16 24 32 40 48 56 64 72 80 88 96 104 112 120 128;
+@each $size in $padding-margin-sizes {
+  .p#{$size}  { padding: #{$size}px; }
+  .pt#{$size} { padding-top: #{$size}px; }
+  .pr#{$size} { padding-right: #{$size}px; }
+  .pb#{$size} { padding-bottom: #{$size}px; }
+  .pl#{$size} { padding-left: #{$size}px; }
+  .m#{$size}  { margin: #{$size}px; }
+  .mt#{$size} { margin-top: #{$size}px; }
+  .mr#{$size} { margin-right: #{$size}px; }
+  .mb#{$size} { margin-bottom: #{$size}px; }
+  .ml#{$size} { margin-left: #{$size}px; }
+}
+
+// Backgrounds
+.bg-white {
+  background-color: white;
+}

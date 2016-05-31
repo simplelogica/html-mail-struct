@@ -1,3 +1,4 @@
 $(function() {
-  console.log('Ready to go');
+  // La magia aquí
+  console.log('Ready to go!');
 });
