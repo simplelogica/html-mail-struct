@@ -1,1 +1,7 @@
 @import "email/blocks/*_mobile.scss";
+
+.hide-on-mobile {
+  width: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
