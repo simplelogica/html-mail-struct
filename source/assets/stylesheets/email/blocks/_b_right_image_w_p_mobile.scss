@@ -1,5 +1,7 @@
-.b-right-image-w-p {
-  .half {
-    width: 100% !important;
+@include media($mobile-breakpoint) {
+  .b-right-image-w-p {
+    .half {
+      width: 100% !important;
+    }
   }
 }

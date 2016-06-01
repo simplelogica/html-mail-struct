@@ -1,4 +1,8 @@
-.b-sample {
-  color: orange;
-  background-color: cyan;
+@include media($mobile-breakpoint) {
+
+  .b-sample {
+    color: orange;
+    background-color: cyan;
+  }
+
 }

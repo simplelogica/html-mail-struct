@@ -1,11 +1,18 @@
-// Common helpers
-.hide-on-mobile,
-.newsletter-sidespace {
-  // Hides completly
-  width: 0 !important;
-  font-size: 0 !important;
-  line-height: 0 !important;
+// We need to import vars and mixins
+@import "email/layout/1_vars";
+@import "email/layout/3_mixins";
+
+// Common useful styles
+@include media($mobile-breakpoint) {
+  // Common helpers
+  .hide-on-mobile,
+  .newsletter-sidespace {
+    // Hides completly
+    width: 0 !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+  }
 }
 
-// Email blocks
+// Responsive CSS for email blocks
 @import "email/blocks/*_mobile.scss";
