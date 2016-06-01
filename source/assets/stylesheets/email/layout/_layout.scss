@@ -5,6 +5,11 @@ html, body {
   background: $color-main-bg;
   margin: 0;
   padding: 0;
+  background: red;
+}
+
+.newsletter-content {
+  background-color: blue;
 }
 table {
   border-collapse: collapse;
@@ -41,20 +46,15 @@ table {
   text-align: right;
 }
 
-// Width helpers, creates .wXX and .colXX classes
-$wid-sizes: 10 20 25 30 33 40 50 60 66 70 80 90 100;
-@each $wid in $wid-sizes {
-  .w#{$size} {
-    width: #{$size}%;
-  }
-  .col#{$size} {
-    width: #{$size}%;
-  }
+// Backgrounds
+.bg-white {
+  background-color: white;
 }
 
+// General helpers
 // Padding / margin helpers 8px increments
 // Need more? Simply add them to the list
-$padding-margin-sizes:  0 16 24 32 40 48 56 64 72 80 88 96 104 112 120 128;
+$padding-margin-sizes: 0 16 24 32 40 48 56 64 72 80 88 96 104 112 120 128;
 @each $size in $padding-margin-sizes {
   .p#{$size}  { padding: #{$size}px; }
   .pt#{$size} { padding-top: #{$size}px; }
@@ -68,7 +68,13 @@ $padding-margin-sizes:  0 16 24 32 40 48 56 64 72 80 88 96 104 112 120 128;
   .ml#{$size} { margin-left: #{$size}px; }
 }
 
-// Backgrounds
-.bg-white {
-  background-color: white;
+// Width helpers, creates .wXX and .colXX classes
+$wid-sizes: 10 20 25 30 33 40 50 60 66 70 80 90 100;
+@each $wid in $wid-sizes {
+  .w#{$wid} {
+    width: unquote( $wid + '%');
+  }
+  .col#{$wid} {
+    width: unquote( $wid + '%');
+  }
 }
