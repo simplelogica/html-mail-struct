@@ -1,7 +1,11 @@
-@import "email/blocks/*_mobile.scss";
-
-.hide-on-mobile {
+// Common helpers
+.hide-on-mobile,
+.newsletter-sidespace {
+  // Hides completly
   width: 0 !important;
   font-size: 0 !important;
   line-height: 0 !important;
 }
+
+// Email blocks
+@import "email/blocks/*_mobile.scss";
