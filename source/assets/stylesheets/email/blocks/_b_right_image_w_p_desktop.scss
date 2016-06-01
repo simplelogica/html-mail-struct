@@ -1,0 +1,19 @@
+.b-right-image-w-p {
+  color: red;
+  background-color: #fff;
+
+  .half {
+    width: 325px;
+    width: 50%;
+    float: left;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  &-text-content {
+    padding: 20px;
+  }
+}
