@@ -1,0 +1,25 @@
+//
+// Font import and base tipography styles
+//
+body, ol, ul, li, dl, dt, dd, address, abbr, dfn, blockquote, pre, code, kbd, samp, cite, q, figcaption, sub, sup, small, p, h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  color: $color-text-default;
+  margin: 0;
+}
+.pre-title {
+  display: block;
+  font-style: 16px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.title {
+  display: block;
+  font-style: 24px;
+  margin-bottom: 8px;
+}
+.post-title {
+  display: block;
+  font-style: 16px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}

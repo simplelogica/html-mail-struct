@@ -2,14 +2,13 @@
 // Layout and grid
 //
 html, body {
-  background: $color-main-bg;
   margin: 0;
   padding: 0;
-  background: red;
+  background: $color-main-bg;
 }
 .newsletter-content {
   width: 650px;
-  background-color: blue;
+  // background-color: blue;
 }
 table {
   border-collapse: collapse;
