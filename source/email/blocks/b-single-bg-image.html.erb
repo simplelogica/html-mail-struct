@@ -6,7 +6,7 @@
 %>
 <table class="b-single-bg-image" style="width:100%;" height="<%= b_single_bg_image_h %>">
   <tr>
-    <td background="<%= b_single_bg_image_url %>">
+    <td class="b-single-bg-image-prop" style="background-image:url(<%= b_single_bg_image_url %>);" background="<%= b_single_bg_image_url %>">
       <!--[if gte mso 9]>
       <v:rect style="width:<%= b_single_bg_image_w %>px;height:137px;" strokecolor="none">
         <v:fill type="tile" color="#363636" src="<%= b_single_bg_image_url %>" /></v:fill>
@@ -26,7 +26,7 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque nam unde, laudantium distinctio commodi saepe reprehenderit ut, cumque incidunt excepturi.
+              Lorem ipsum dolor sit amet, <a href="#" class="default-text-link">consectetur adipisicing</a> elit. Neque nam unde, laudantium distinctio commodi saepe reprehenderit ut, cumque incidunt excepturi.
             </p>
           </td>
         </tr>

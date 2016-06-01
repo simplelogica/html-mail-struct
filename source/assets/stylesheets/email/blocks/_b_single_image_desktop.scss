@@ -5,3 +5,7 @@
   display: block;
   width: 100%;
 }
+.default-text-link {
+  text-decoration: underline;
+  color: $default-text-link-color;
+}
