@@ -18,16 +18,9 @@
 <body class="<%= page_classes %>">
   <h1>HTML email / newsletter construction blocks</h1>
 
-  <div class="row" data-iframe-h="200">
-    <p class="block-title">b-sample.html</p>
-    <p class="block-desc-help">Bloque de ejemplo empléalo de base para construir nuevos bloques.</p>
-    <iframe src="/email/blocks/b-sample.html" class="fr-desktop" frameborder="0"></iframe>
-    <iframe src="/email/blocks/b-sample.html" class="fr-mobile" frameborder="0"></iframe>
-  </div>
-
   <div class="row" data-iframe-h="350">
     <p class="block-title">b-single-bg-image.html</p>
-    <p class="block-desc-help">Bloque con imagen de fondo, debe ir a una sola columna, emplea varios <i>hacks</i> para Outlook.</p>
+    <p class="block-desc-help">Bloque con imagen de fondo, debe ir a una sola columna, emplea varios <i>hacks</i> para Outlook. Proveer siempre un color plano de <i>fallback</i> por si todo falla.</p>
     <iframe src="/email/blocks/b-single-bg-image.html" class="fr-desktop" frameborder="0"></iframe>
     <iframe src="/email/blocks/b-single-bg-image.html" class="fr-mobile" frameborder="0"></iframe>
   </div>
@@ -44,6 +37,20 @@
     <p class="block-desc-help">Bloque con una imagen a la derecha, <b>en responsive queda debajo del párrafo</b>.</p>
     <iframe src="/email/blocks/b-right-image-w-p.html" class="fr-desktop" frameborder="0"></iframe>
     <iframe src="/email/blocks/b-right-image-w-p.html" class="fr-mobile" frameborder="0"></iframe>
+  </div>
+
+  <div class="row" data-iframe-h="470">
+    <p class="block-title">b-3-cols-w-img.html</p>
+    <p class="block-desc-help">Bloque con 3 columnas. Nosotros <b>NO RECOMENDAMOS MÁS DE 3</b> ya que algunos clientes móviles no interpretan el responsive y quedan muy pequeñas.</p>
+    <iframe src="/email/blocks/b-3-cols-w-img.html" class="fr-desktop" frameborder="0"></iframe>
+    <iframe src="/email/blocks/b-3-cols-w-img.html" class="fr-mobile" frameborder="0"></iframe>
+  </div>
+
+  <div class="row" data-iframe-h="200">
+    <p class="block-title">b-sample.html</p>
+    <p class="block-desc-help">Bloque de ejemplo empléalo de base para construir nuevos bloques.</p>
+    <iframe src="/email/blocks/b-sample.html" class="fr-desktop" frameborder="0"></iframe>
+    <iframe src="/email/blocks/b-sample.html" class="fr-mobile" frameborder="0"></iframe>
   </div>
 
 </body>

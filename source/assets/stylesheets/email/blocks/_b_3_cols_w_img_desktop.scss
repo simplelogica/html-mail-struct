@@ -1,0 +1,19 @@
+.b-3-cols-w-img {
+  color: red;
+  background-color: #fff;
+
+  .col {
+    width: 206px;
+    width: 33.33%;
+    float: left;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  &-text-content {
+    padding: 20px;
+  }
+}
