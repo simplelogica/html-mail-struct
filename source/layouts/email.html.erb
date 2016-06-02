@@ -1,3 +1,7 @@
+<%
+  # CAUTION! Este valor se usa de base en muchos bloques!!!
+  content_width = 620
+%>
 <!doctype html>
 <html xmlns:v="urn:schemas-microsoft-com:vml">
 <head>
@@ -14,7 +18,7 @@
   <table width="100%" cellspacing="0" cellpadding="0" border="0">
     <tr>
       <td class="newsletter-sidespace">&nbsp;</td>
-      <td class="newsletter-content" width="650"><%= yield %></td>
+      <td class="newsletter-content" width="<%= content_width %>"><%= yield %></td>
       <td class="newsletter-sidespace">&nbsp;</td>
     </tr>
   </table>

@@ -7,7 +7,7 @@ html, body {
   background: $color-main-bg;
 }
 .newsletter-content {
-  width: 650px;
+  width: $content-column-width;
   // background-color: blue;
 }
 table {

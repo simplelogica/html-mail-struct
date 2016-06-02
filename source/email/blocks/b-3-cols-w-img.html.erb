@@ -1,10 +1,11 @@
 <%
-  # b-single-bg-image
-  b_single_image_w = 206
-  b_single_image_h = 206
-  b_single_image_url_1 = "http://placehold.it/#{b_single_image_w}x#{b_single_image_h}.jpg"
-  b_single_image_url_2 = "http://placehold.it/#{b_single_image_w}x#{b_single_image_h}.jpg"
-  b_single_image_url_3 = "http://placehold.it/#{b_single_image_w}x#{b_single_image_h}.jpg"
+  # b-3-cols-w-img
+  content_width = 620
+  b_3_cols_w_img_w = 206 # 620 / 3
+  b_3_cols_w_img_h = 206
+  b_3_cols_w_img_url_1 = "http://placehold.it/#{b_3_cols_w_img_w}x#{b_3_cols_w_img_h}.jpg"
+  b_3_cols_w_img_url_2 = "http://placehold.it/#{b_3_cols_w_img_w}x#{b_3_cols_w_img_h}.jpg"
+  b_3_cols_w_img_url_3 = "http://placehold.it/#{b_3_cols_w_img_w}x#{b_3_cols_w_img_h}.jpg"
 %>
 <table cellspacing="0" cellpadding="0" border="0" class="b-3-cols-w-img">
   <tr>
@@ -13,7 +14,7 @@
       <table cellspacing="0" cellpadding="0" border="0" class="col msoFix">
         <tr>
           <td>
-            <img src="<%= b_single_image_url_1 %>" alt="">
+            <img src="<%= b_3_cols_w_img_url_1 %>" alt="">
           </td>
         </tr>
         <tr>
@@ -27,13 +28,15 @@
       <table cellspacing="0" cellpadding="0" border="0" class="col msoFix">
         <tr>
           <td>
-            <img src="<%= b_single_image_url_1 %>" alt="">
+            <img src="<%= b_3_cols_w_img_url_1 %>" alt="">
           </td>
         </tr>
         <tr>
           <td class="b-3-cols-w-img-text-content">
-            <p class="block-title">Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odio cupiditate accusamus officia aspernatur, magni delectus cum aliquam pariatur atque esse ad reiciendis, a molestias.</p>
+            <center>
+              <p class="block-title">Centrado intencionalmente</p>
+              <p>Este ejemplo está <b>centrado intencionalmente</b> lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odio cupiditate accusamus officia aspernatur, magni delectus cum aliquam pariatur atque esse ad reiciendis, a molestias.</p>
+            </center>
           </td>
         </tr>
       </table>
@@ -41,7 +44,7 @@
       <table cellspacing="0" cellpadding="0" border="0" class="col msoFix">
         <tr>
           <td>
-            <img src="<%= b_single_image_url_1 %>" alt="">
+            <img src="<%= b_3_cols_w_img_url_1 %>" alt="">
           </td>
         </tr>
         <tr>

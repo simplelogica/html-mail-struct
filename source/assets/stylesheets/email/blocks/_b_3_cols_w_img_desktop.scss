@@ -3,7 +3,7 @@
   background-color: #fff;
 
   .col {
-    width: 206px;
+    width: $content-column-width / 3;
     width: 33.33%;
     float: left;
   }
