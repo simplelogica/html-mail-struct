@@ -6,20 +6,32 @@ html, body {
   padding: 0;
   background: $color-main-bg;
 }
-.newsletter-content {
-  width: $content-column-width;
-  // background-color: blue;
-}
 table {
   border-collapse: collapse;
 }
+img {
+  display: block;
+}
+
+// MSO / IE Hacks
+
 .msoFix {
   mso-table-lspace: -1pt;
   mso-table-rspace: -1pt;
 }
+
+// Layout
+
+.newsletter-content {
+  width: $content-column-width;
+  // background-color: blue;
+}
 .half {
   width: 50%;
 }
+
+// Alignment hacks
+
 .v-bottom {
   vertical-align: bottom;
 }
@@ -35,6 +47,9 @@ table {
 .fl {
   float: left;
 }
+
+// Text helpers
+
 .tac {
   text-align: center;
 }
@@ -44,10 +59,20 @@ table {
 .tar {
   text-align: right;
 }
+.tdu {
+  text-decoration: underline !important;
+}
 
 // Backgrounds
+
 .bg-white {
   background-color: white;
+}
+
+// FX
+
+.rounded {
+  border-radius: 512px;
 }
 
 // General helpers

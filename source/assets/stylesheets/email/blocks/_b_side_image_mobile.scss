@@ -1,6 +1,6 @@
 @include media($mobile-breakpoint) {
   .b-side-image {
-    .half {
+    &-col {
       width: 100% !important;
     }
   }

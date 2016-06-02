@@ -4,6 +4,12 @@
 
 // Common useful styles
 @include media($mobile-breakpoint) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   // Common helpers
   .hide-on-mobile,
   .newsletter-sidespace {
