@@ -53,7 +53,7 @@ table {
 // General helpers
 // Padding / margin helpers 8px increments
 // Need more? Simply add them to the list
-$padding-margin-sizes: 0 16 24 32 40 48 56 64 72 80 88 96 104 112 120 128;
+$padding-margin-sizes: 0 8 16 24 32 40 48 56 64 72 80 88 96 104 112 120 128;
 @each $size in $padding-margin-sizes {
   .p#{$size}  { padding: #{$size}px; }
   .pt#{$size} { padding-top: #{$size}px; }

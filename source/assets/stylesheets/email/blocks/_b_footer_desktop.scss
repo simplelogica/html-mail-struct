@@ -1,0 +1,12 @@
+.b-footer {
+  background-color: transparent;
+
+  &-content {
+    padding: 16px;
+  }
+
+  &-link {
+    color: green;
+    text-decoration: underline;
+  }
+}
