@@ -1,19 +1,19 @@
-.b-right-image-w-p {
+.b-side-image {
   color: red;
   background-color: #fff;
 
-  .half {
+  &-col {
     width: $content-column-width / 2;
     width: 50%;
     float: left;
   }
 
-  img {
+  &-img {
     display: block;
     width: 100%;
   }
 
-  &-text-content {
+  &-content {
     padding: 20px;
   }
 }

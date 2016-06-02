@@ -1,0 +1,61 @@
+<%
+  # b-single-bg-image
+  content_width = 620
+  b_side_image_w = content_width / 2 # 620 / 2
+  b_side_image_h = 310
+  b_side_image_url = "http://placehold.it/#{b_side_image_w}x#{b_side_image_h}.jpg"
+%>
+
+<!-- Image on right side -->
+<table cellspacing="0" cellpadding="0" border="0" class="b-side-image mb24">
+  <tr>
+    <td>
+
+      <table cellspacing="0" cellpadding="0" border="0" class="b-side-image-col">
+        <tr>
+          <td class="b-side-image-content">
+            <p class="block-title">Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odio cupiditate accusamus officia aspernatur, magni delectus cum aliquam pariatur atque esse ad reiciendis, a molestias.</p>
+          </td>
+        </tr>
+      </table>
+
+      <table cellspacing="0" cellpadding="0" border="0" class="b-side-image-col">
+        <tr>
+          <td>
+            <img class="b-side-image" src="<%= b_side_image_url %>" alt="">
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+<!-- Image on left side -->
+<table cellspacing="0" cellpadding="0" border="0" class="b-side-image" <tr>
+    <td>
+
+      <table cellspacing="0" cellpadding="0" border="0" class="b-side-image-col">
+        <tr>
+          <td>
+            <img class="b-side-image-img" src="<%= b_side_image_url %>" alt="">
+          </td>
+        </tr>
+      </table>
+
+      <table cellspacing="0" cellpadding="0" border="0" class="b-side-image-col">
+        <tr>
+          <td class="b-side-image-content">
+            <center>
+              <p class="block-title">Contenido centrado intencionalmente</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odio cupiditate accusamus officia aspernatur, magni delectus cum aliquam pariatur atque esse ad reiciendis, a molestias.</p>
+            </center>
+          </td>
+        </tr>
+      </table>
+
+
+    </td>
+  </tr>
+</table>
