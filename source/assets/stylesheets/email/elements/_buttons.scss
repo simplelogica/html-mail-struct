@@ -1,0 +1,32 @@
+$e-btn-boder-radius: 8px;
+
+.e-btn {
+  -webkit-border-radius: $e-btn-boder-radius;
+  -moz-border-radius: $e-btn-boder-radius;
+  border-radius: $e-btn-boder-radius;
+
+  &-bg {
+    /*background-color: #e9703e;*/
+
+  }
+
+  &-link {
+    padding: 12px 18px;
+    border: 1px solid #e9703e;
+    display: inline-block;
+
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+
+    -webkit-border-radius: $e-btn-boder-radius;
+    -moz-border-radius: $e-btn-boder-radius;
+    border-radius: $e-btn-boder-radius;
+  }
+
+  &-icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
