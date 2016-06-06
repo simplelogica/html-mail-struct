@@ -1,18 +1,17 @@
 $e-btn-boder-radius: 8px;
 
 .e-btn {
-  -webkit-border-radius: $e-btn-boder-radius;
-  -moz-border-radius: $e-btn-boder-radius;
-  border-radius: $e-btn-boder-radius;
 
   &-bg {
     /*background-color: #e9703e;*/
-
+    -webkit-border-radius: $e-btn-boder-radius;
+    -moz-border-radius: $e-btn-boder-radius;
+    border-radius: $e-btn-boder-radius;
   }
 
   &-link {
     padding: 12px 18px;
-    border: 1px solid #e9703e;
+    border: 1px solid #000;
     display: inline-block;
 
     font-size: 16px;
