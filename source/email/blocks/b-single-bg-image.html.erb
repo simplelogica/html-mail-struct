@@ -3,18 +3,19 @@
   content_width = 620
   b_single_bg_image_w = content_width # 620
   b_single_bg_image_h = 300
+  mso_backgrouns_fallback_color = '#360000'
   b_single_bg_image_url = "http://placehold.it/#{b_single_bg_image_w}x#{b_single_bg_image_h}.jpg"
 %>
-<table class="b-single-bg-image" style="width:100%;" height="<%= b_single_bg_image_h %>">
+<table class="b-single-bg-image" style="width:100%;" width="<%= content_width %>" height="<%= b_single_bg_image_h %>">
   <tr>
     <td class="b-single-bg-image-prop" style="background-image:url(<%= b_single_bg_image_url %>);" background="<%= b_single_bg_image_url %>">
       <!--[if gte mso 9]>
       <v:rect style="width:<%= b_single_bg_image_w %>px;height:<%= b_single_bg_image_h %>px;" strokecolor="none">
-        <v:fill type="tile" color="#363636" src="<%= b_single_bg_image_url %>" /></v:fill>
+        <v:fill type="tile" color="<%= mso_backgrouns_fallback_color %>" src="<%= b_single_bg_image_url %>" /></v:fill>
       </v:rect>
       <v:shape id="NameHere" style="position:absolute;width:<%= b_single_bg_image_w %>px;height:<%= b_single_bg_image_w %>px;">
       <![endif]-->
-      <table cellspacing="0" cellpadding="0" border="0" style="width:100%;">
+      <table cellspacing="0" cellpadding="0" border="0" width="<%= content_width %>" style="width:100%;">
         <tr>
           <td class="b-single-bg-image-content">
             <p class="block-pre-title">

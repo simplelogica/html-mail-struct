@@ -6,12 +6,13 @@
   b_side_image_url = "http://placehold.it/#{b_side_image_w}x#{b_side_image_h}.jpg"
 %>
 
-<!-- Image on right side -->
+<!-- Block with image on right side -->
+
 <table cellspacing="0" cellpadding="0" border="0" class="b-side-image mb24">
   <tr>
     <td>
 
-      <table cellspacing="0" cellpadding="0" border="0" class="b-side-image-col">
+      <table width="<%= content_width / 2 %>" cellspacing="0" cellpadding="0" border="0" class="b-side-image-col">
         <tr>
           <td class="b-side-image-content">
             <p class="block-title">Lorem ipsum dolor sit amet.</p>
@@ -20,7 +21,11 @@
         </tr>
       </table>
 
-      <table cellspacing="0" cellpadding="0" border="0" class="b-side-image-col">
+      <!-- > THIS BIT IS THE KICKER < whack in a column if Outlook -->
+      <!--[if mso]></td><td><![endif]-->
+      <!-- Brilliant. -->
+
+      <table width="<%= content_width / 2 %>" cellspacing="0" cellpadding="0" border="0" class="b-side-image-col">
         <tr>
           <td>
             <img class="b-side-image" src="<%= b_side_image_url %>" alt="">
@@ -32,11 +37,12 @@
   </tr>
 </table>
 
-<!-- Image on left side -->
+<!-- Block with image on left side -->
+
 <table cellspacing="0" cellpadding="0" border="0" class="b-side-image" <tr>
     <td>
 
-      <table cellspacing="0" cellpadding="0" border="0" class="b-side-image-col">
+      <table width="<%= content_width / 2 %>" cellspacing="0" cellpadding="0" border="0" class="b-side-image-col">
         <tr>
           <td>
             <img class="b-side-image-img" src="<%= b_side_image_url %>" alt="">
@@ -44,7 +50,11 @@
         </tr>
       </table>
 
-      <table cellspacing="0" cellpadding="0" border="0" class="b-side-image-col">
+      <!-- > THIS BIT IS THE KICKER < whack in a column if Outlook -->
+      <!--[if mso]></td><td><![endif]-->
+      <!-- Brilliant. -->
+
+      <table width="<%= content_width / 2 %>" cellspacing="0" cellpadding="0" border="0" class="b-side-image-col">
         <tr>
           <td class="b-side-image-content">
             <center>
