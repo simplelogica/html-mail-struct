@@ -1,0 +1,21 @@
+<%
+  # b-single-bg-image
+  content_width = 620
+  b_single_image_w = content_width # 620
+  b_single_image_h = 300
+  b_single_image_url = "http://placehold.it/#{b_single_image_w}x#{b_single_image_h}.jpg"
+%>
+<table cellspacing="0" cellpadding="0" border="0" class="b-single-image-w-text mb24">
+  <tbody>
+    <tr>
+      <td>
+        <img class="b-single-image-img" src="<%= b_single_image_url %>" alt="">
+      </td>
+    </tr>
+    <tr>
+      <td class="pt10 pr40 pb10 pl40 | pmobile10">
+        <p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ducimus debitis, doloribus. Vero laudantium, sint esse, officia nihil fugit voluptas!</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
