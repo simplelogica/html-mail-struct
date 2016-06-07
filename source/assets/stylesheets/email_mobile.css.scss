@@ -18,6 +18,22 @@
     font-size: 0 !important;
     line-height: 0 !important;
   }
+
+  // Paddings & margins
+  $padding-margin-sizes: 0 8 10 16 20 24 32 40 48 56 64 72 80 88 96 104 112 120 128;
+  @each $size in $padding-margin-sizes {
+    .pmobile#{$size}  { padding: #{$size}px !important; }
+    .ptmobile#{$size} { padding-top: #{$size}px !important; }
+    .prmobile#{$size} { padding-right: #{$size}px !important; }
+    .pbmobile#{$size} { padding-bottom: #{$size}px !important; }
+    .plmobile#{$size} { padding-left: #{$size}px !important; }
+    .m#{$size}-mobile  { margin: #{$size}px !important; }
+    .mt#{$size}-mobile { margin-top: #{$size}px !important; }
+    .mr#{$size}-mobile { margin-right: #{$size}px !important; }
+    .mb#{$size}-mobile { margin-bottom: #{$size}px !important; }
+    .ml#{$size}-mobile { margin-left: #{$size}px !important; }
+  }
+
 }
 
 // Responsive CSS for email blocks
