@@ -1,0 +1,22 @@
+<%
+  e_btn_text = 'Show me the button!'
+  e_btn_href = 'http://google.com'
+  e_btn_bgcolor = '#49a9ce'
+  e_btn_textcolor = '#ffffff'
+  e_btn_width = 200
+  e_btn_height = 52
+%>
+
+<table>
+  <tr>
+    <td>
+<!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="<%= e_btn_href %>" style="height:<%= e_btn_height %>px;v-text-anchor:middle;width:<%= e_btn_width %>px;" arcsize="8%" stroke="f" fill="t">
+    <v:fill type="tile" src=""https://imgur.com/5BIp9d0.gif"" color="<%= e_btn_bgcolor %>" />
+    <w:anchorlock/>
+    <center class="e-btn-type-a"><%= e_btn_text %></center>
+  </v:roundrect>
+<![endif]--><a href="<%= e_btn_href %>" style="background-color:<%= e_btn_bgcolor %>;background-image:url('//imgur.com/5BIp9d0.gif');height:<%= e_btn_height %>px;width:<%= e_btn_width %>px;" class="e-btn-type-a"><%= e_btn_text %></a>
+</td>
+</tr>
+</table>
