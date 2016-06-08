@@ -1,4 +1,5 @@
-$e-btn-boder-radius: 8px;
+$e_btn_boder_radius: 8px;
+$e_btn_border_color: #37768e;
 
 .e-btn {
 
@@ -6,14 +7,14 @@ $e-btn-boder-radius: 8px;
     /* Atención! El background color está en el HTML */
     /* background-color: #e9703e; */
 
-    -webkit-border-radius: $e-btn-boder-radius;
-    -moz-border-radius: $e-btn-boder-radius;
-    border-radius: $e-btn-boder-radius;
+    -webkit-border-radius: $e_btn_boder_radius;
+    -moz-border-radius: $e_btn_boder_radius;
+    border-radius: $e_btn_boder_radius;
   }
 
   &-link {
     padding: 12px 18px;
-    border: 1px solid #000;
+    border: 1px solid $e_btn_border_color;
     display: inline-block;
 
     font-size: 16px;
@@ -22,9 +23,9 @@ $e-btn-boder-radius: 8px;
     line-height: 32px;
     text-decoration: none;
 
-    -webkit-border-radius: $e-btn-boder-radius;
-    -moz-border-radius: $e-btn-boder-radius;
-    border-radius: $e-btn-boder-radius;
+    -webkit-border-radius: $e_btn_boder_radius;
+    -moz-border-radius: $e_btn_boder_radius;
+    border-radius: $e_btn_boder_radius;
   }
 
   &-icon {
@@ -34,17 +35,74 @@ $e-btn-boder-radius: 8px;
 }
 
 .e-btn-type-a {
-  border-radius:4px;
-  color:#ffffff;
-  display:inline-block;
+  $e_btn_bgcolor: #49a9ce;
+  $e_btn_border_color: #37768e;
+  $e_btn_textcolor: #ffffff;
 
-  font-family:sans-serif;
-  font-size:13px;
-  font-weight:bold;
-  line-height:52px;
-  text-align:center;
-  text-decoration:none;
+  width: 200px;
+  height: 52px;
+
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 52px;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: $e_btn_bgcolor; background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAA1AgMAAAAMmzIsAAAACVBMVEUAAAD///8AAABzxoNxAAAAA3RSTlMAMzOxzcD4AAAAF0lEQVQY02MIDQ0NgBAjEqxatWoBmAAAw/gH2znnmOQAAAAASUVORK5CYII=);
 
   -webkit-text-size-adjust:none;
   mso-hide:all;
+}
+
+.e-btn-type-b {
+  $e_btn_bgcolor: #49a9ce;
+  $e_btn_border_color: #37768e;
+  $e_btn_textcolor: #ffffff;
+
+  display: inline-block;
+  width: 200px;
+  border-radius: 3px;
+
+  border: 1px solid $e_btn_border_color;
+  background-color: $e_btn_bgcolor;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAmCAMAAAAsqzGGAAAAPFBMVEUAAAAAAAAAAAAAAAD///8AAAD///8AAAD///////////////////////////////////////////////86oq7OAAAAFHRSTlMAIxMKHhsHBAwCEbB+MCwoJBgVBItGzzIAAABSSURBVCjPxcdJDoAwDATBYY/DTv7/VxLg0vIhR0ryWK2ZtJBW0kbaSQepJ9cn6SJFUgxF3pcCaSTXycxSnu/LlNlD5f42keuOqt1StQdy3VCtb1e1DRalzoodAAAAAElFTkSuQmCC');
+
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 38px;
+  text-align: center;
+  text-decoration: none;
+  color: $e_btn_textcolor;
+
+  -webkit-text-size-adjust: none;
+  mso-hide: all;
+}
+
+.e-btn-type-rounded {
+  $e_btn_bgcolor: #49a9ce;
+  $e_btn_border_color: #37768e;
+  $e_btn_textcolor: #ffffff;
+
+  display: inline-block;
+  width: 220px;
+  background-color: $e_btn_bgcolor;
+  border: 1px solid $e_btn_border_color;
+  border-radius: 18px;
+
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  color: $e_btn_textcolor;
+
+  -webkit-text-size-adjust: none;
+  mso-hide: all;
 }
