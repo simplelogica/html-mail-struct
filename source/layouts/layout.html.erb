@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+  <!-- Use title if it's in the page YAML frontmatter -->
+  <title>Responsive email blocks</title>
+
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+
+  <%= stylesheet_link_tag 'demo_site' %>
+
+  <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.3.min.js"></script>
+  <%= javascript_include_tag 'demo-site' %>
+</head>
+
+<body class="<%= page_classes %>">
+  <%= yield %>
+</body>
+</html>
