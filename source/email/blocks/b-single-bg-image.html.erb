@@ -10,12 +10,15 @@ title: Bloque con imagen de fondo, debe ir a una sola columna, emplea varios <i>
   mso_backgrouns_fallback_color = '#360000'
   b_single_bg_image_url = "http://placehold.it/#{b_single_bg_image_w}x#{b_single_bg_image_h}.jpg"
 %>
+
 <table class="b-single-bg-image" style="width:100%;" width="<%= content_width %>" height="<%= b_single_bg_image_h %>">
   <tr>
     <td class="b-single-bg-image-prop" style="background-image:url(<%= b_single_bg_image_url %>);" background="<%= b_single_bg_image_url %>">
-
-<!--[if gte mso 9]><v:rect fill="true" stroke="false" style="width:<%= b_single_bg_image_w %>px;height:<%= b_single_bg_image_h %>px;"><v:fill color="#FFFFFF" src="<%= b_single_bg_image_url %>" type="tile" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]-->
-
+<!--[if gte mso 9]>
+  <v:rect fill="true" stroke="false" style="width:<%= b_single_bg_image_w %>px;height:<%= b_single_bg_image_h %>px;">
+    <v:fill color="#FFFFFF" src="<%= b_single_bg_image_url %>" type="tile" />
+    <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+<![endif]-->
       <table cellspacing="0" cellpadding="0" border="0" width="<%= content_width %>" style="width:100%;">
         <tr>
           <td class="b-single-bg-image-content">
@@ -34,7 +37,10 @@ title: Bloque con imagen de fondo, debe ir a una sola columna, emplea varios <i>
           </td>
         </tr>
       </table>
-<!--[if gte mso 9]></v:textbox></v:rect><![endif]-->
+<!--[if gte mso 9]>
+    </v:textbox>
+  </v:rect>
+<![endif]-->
     </td>
   </tr>
 </table>
