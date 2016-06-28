@@ -1,7 +1,14 @@
-@include media($mobile-breakpoint) {
-  .b-2-cols-w-img{
+@media screen and (min-width: 401px) and (max-width: $tablet-breakpoint) {
+  .b-2-cols-w-img {
     &-col {
-      width: 100% !important;
+      max-width: 50% !important;
+    }
+  }
+}
+@include media($mobile-breakpoint) {
+  .b-2-cols-w-img {
+    &-col {
+      max-width: 100% !important;
     }
   }
 }
