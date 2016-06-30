@@ -1,13 +1,18 @@
 .b-side-image {
   color: red;
+  margin: 0 auto 10px;
   background-color: #fff;
-
+  font-size: 0;
+  min-width: 310px;
+  text-align: center;
   &-col {
-    width: 50%;
-    width: $content-column-width / 2;
-    float: left;
+    width: 100%;
+    max-width: 310px;
+    background-color: #fff;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
   }
-
   &-img {
     display: block;
     width: 100%;
