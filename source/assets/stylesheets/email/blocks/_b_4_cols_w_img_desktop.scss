@@ -2,6 +2,13 @@
   @-ms-viewport { width:320px; }
   @viewport { width:320px; }
 }
+@include media-min($desktop-breakpoint) {
+  .b-4-cols-w-img {
+    &-col {
+      width: 25%;
+    }
+  }
+}
 .b-4-cols-w-img {
   color: red;
   text-align: center;
