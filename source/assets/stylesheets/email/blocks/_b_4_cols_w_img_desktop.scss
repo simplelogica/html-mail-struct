@@ -1,12 +1,29 @@
+@media only screen and (max-width:480px) {
+  @-ms-viewport { width:320px; }
+  @viewport { width:320px; }
+}
 .b-4-cols-w-img {
   color: red;
+  text-align: center;
   background-color: #fff;
-
+  width:100vw;
+  max-width: 620px;
+  min-width: 260px;
+  position: relative;
+  margin: 0 auto;
+  font-size: 0;
   &-col {
-    width: $content-column-width / 4;
-    //width: 25%;
-    float: left;
+    background-color: #fff;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    min-width:-webkit-calc(25%);
+    min-width: 25%;
+    max-width: 100%;
+    width:-webkit-calc(230400px — 48000%);
+    width: calc(230400px - 48000%);
   }
+
   p, a {
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -21,12 +38,13 @@
     -webkit-hyphens: auto;
     hyphens: auto;
   }
+
   img {
     display: block;
     width: 100%;
   }
 
   &-text-content {
-    /*padding: 20px;*/
+    padding: 20px;
   }
 }

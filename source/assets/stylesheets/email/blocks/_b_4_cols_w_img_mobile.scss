@@ -1,7 +1,11 @@
-@include media($mobile-breakpoint) {
-  .b-4-cols-w-img{
-    &-col {
-      width: 100% !important;
-    }
-  }
-}
+// @include media($tablet-breakpoint) {
+//   .b-4-cols-w-img {
+//     width: 320px !important;
+//     max-width: 320px !important;
+//     margin: 0 auto;
+//     &-col {
+//       width: 100% !important;
+//       min-width: 100% !important;
+//     }
+//   }
+// }

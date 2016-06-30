@@ -18,7 +18,9 @@
     font-size: 0 !important;
     line-height: 0 !important;
   }
-
+  .newsletter-content {
+    text-align: center;
+  }
   // Paddings & margins
   $padding-margin-sizes: 0 8 10 16 20 24 32 40 48 56 64 72 80 88 96 104 112 120 128;
   @each $size in $padding-margin-sizes {
