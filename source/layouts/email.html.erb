@@ -2,7 +2,7 @@
   # CAUTION! Este valor se usa de base en muchos bloques!!!
   content_width = 620
 %>
-<!doctype html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns:v="urn:schemas-microsoft-com:vml">
 <head>
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -15,7 +15,7 @@
   <%= stylesheet_inline_tag 'email' %>
 </head>
 <body>
-  <table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <table bgcolor="#efecee" width="100%" cellspacing="0" cellpadding="0" border="0">
     <tr>
       <td class="newsletter-sidespace">&nbsp;</td>
       <td class="newsletter-content" width="<%= content_width %>"><%= yield %></td>

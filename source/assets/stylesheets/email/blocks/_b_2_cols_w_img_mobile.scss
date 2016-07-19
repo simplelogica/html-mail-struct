@@ -1,5 +1,6 @@
 @include media($mobile-breakpoint) {
   .b-2-cols-w-img{
+    width: 100% !important;
     &-col {
       width: 100% !important;
     }
