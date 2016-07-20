@@ -1,9 +1,11 @@
 .b-3-cols-w-img {
+  max-width: 620px;
+
   color: red;
   background-color: #fff;
 
   &-col {
-    width: $content-column-width / 3;
+    /*width: $content-column-width / 3;*/
     width: 33.33%;
     float: left;
   }
