@@ -6,7 +6,8 @@
 
   &-col {
     /*width: $content-column-width / 3;*/
-    width: 33.33%;
+    display: inline-block;
+    width: 33%;
     float: left;
   }
 

@@ -5,9 +5,9 @@
   background-color: #fff;
 
   &-col {
+    /*width: $content-column-width / 2;*/
     display: inline-block;
     width: 50%;
-    /*width: $content-column-width / 2;*/
     float: left;
   }
 
