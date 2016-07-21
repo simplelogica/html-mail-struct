@@ -1,7 +1,11 @@
 @include media($mobile-breakpoint) {
-  .b-3-cols-w-img{
+  .b-3-cols-w-img {
     &-col {
       width: 100% !important;
+    }
+
+    .block-3-title {
+      font-size: 24px;
     }
   }
 }
