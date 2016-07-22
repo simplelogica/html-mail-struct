@@ -1,5 +1,5 @@
 ---
-title: Bloque con imagen de fondo, debe ir a una sola columna, emplea varios <i>hacks</i> para Outlook. Proveer siempre un color plano de <i>fallback</i> por si todo falla.
+title: Bloque con imagen de fondo, debe ir a una sola columna, emplea varios hacks para Outlook. Proveer siempre un color plano de fallback por si todo falla.
 ---
 
 <%
@@ -8,7 +8,7 @@ title: Bloque con imagen de fondo, debe ir a una sola columna, emplea varios <i>
   b_single_bg_image_w = content_width # 620
   b_single_bg_image_h = 300
   mso_backgrouns_fallback_color = '#360000'
-  b_single_bg_image_url = "http://placehold.it/#{b_single_bg_image_w}x#{b_single_bg_image_h}.jpg"
+  b_single_bg_image_url = "http://lorempixel.com/output/technics-q-c-620-300-1.jpg"
 %>
 
 <table class="b-single-bg-image" style="width:100%;" width="<%= content_width %>" height="<%= b_single_bg_image_h %>">
@@ -26,7 +26,7 @@ title: Bloque con imagen de fondo, debe ir a una sola columna, emplea varios <i>
               Pre title
             </p>
             <p class="block-title">
-              Title Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              <b>Imagen de 620x300</b>
             </p>
             <p class="block-post-title">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
