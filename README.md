@@ -59,4 +59,4 @@ El que te escribe ([@carloscabo](https://github.com/carloscabo)) desea que:
 - Los emails en HTML terminen **desapareciendo**
 - En su defecto sean lo más sencillos posible (una columna y pocos elementos)
 - O volver a una imagen metida en el correo y dejar de complicarnos
-- O que un meteorito del tamaño de Texas impacte contra la tierra y tras la extinción masiva ([ELE](https://es.wikipedia.org/wiki/Evento_ligado_a_la_extinci%C3%B3n)) la civilización que surja (probablemente de insectos) haga las cosas mejor y nunca lleguen a crear los emails en HTML.
+- O que un meteorito del tamaño de Texas impacte contra la tierra y tras la extinción masiva ([ELE](https://es.wikipedia.org/wiki/Evento_ligado_a_la_extinci%C3%B3n)) la civilización que surja (probablemente de insectos) haga las cosas mejor y nunca llegue a crear los emails en HTML.
