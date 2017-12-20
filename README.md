@@ -29,6 +29,15 @@ La magia que proporciona este proyecto es que cuando haces un `build` del email 
 En la carpeta raiz ejecuta em la terminal: 💻 `middleman build`  
 El email HTML resultante se generará en la carpeta `/build`.
 
+## Uso y funcionamiento
+
+⚠️ **IMPORTANTE**: Echa un vistazo a la [sección de **Usage** de Middleman-roadie](https://github.com/vortizhe/middleman-roadie#usage) que te explica **como debes incluír las hojas de estilo para que todo esto funcione.**
+
+Puede ser también útil que eches un ojo al layout base que se usa para general los emails:  
+`source/layouts/email.html.erb`
+
+Y sl resto es bastante sencillo, emplea los bloques de ejemplo en `source/email/blocks` como base para tus propios bloques y estila normalmente.
+
 ## Disclaimers varios
 
 - Los lectores de correo cambian constántemente muchas veces sin avisar ni explicar en ningún sitio que transformaciones aplican en los emails antes de mostrárselos a los usuario. Si, has leido bien, **algunos lectores de correo reemplazan el HTML de los emails por su cuenta y no dicen cómo o porqué**.
@@ -48,9 +57,9 @@ Por favor, si conoces más herramientas útiles que puedan simplificar este tema
 - [Emailonacid](https://www.emailonacid.com/), para testear los correos en varios lectores
 - [Litmus.com](https://litmus.com/) Otra herramienta para testear correos. Tienen una [sección de documentación muy completa](https://litmus.com/resources).
 - [Propiedades de CSS soportadas por cada lector de correo](https://www.campaignmonitor.com/css/color-background/background-attachment/). No pierdas tiempo y **consulta esto antes de usar cualquier propiedad.**
-- [Porcentaje de uso de cada lecto de correo](https://emailclientmarketshare.com/). Para justificar 
+- [Porcentaje de uso de cada lecto de correo](https://emailclientmarketshare.com/). Para justificar a que clientes dar soporte o no.
 - [Clientes de correo que dan soporte a _mediaqueries_](https://litmus.com/help/email-clients/media-query-support/). Es decir los que soportan un _responsive_ real que se puede controlar. El resto son hacks, por lo tanto incontrolables.
-- [Midddleman-roadie](https://github.com/vortizhe/middleman-roadie) la gema que hace la magia del _inline_de_los estilos.
+- [Midddleman-roadie](https://github.com/vortizhe/middleman-roadie) la gema que hace la magia del _inline_ de los estilos.
 - [Roadie](https://github.com/Mange/roadie) la gema original de _roadie_.
 
 ## Futuro
