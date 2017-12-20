@@ -6,10 +6,10 @@ html-mail-struct. HTML email / newsletter kit
 - Ruby 2.3.0
 - [Middleman 4](https://middlemanapp.com/)
 
-La instalación es como cualquier otro proyecto de Ruby / Rails. Tener instalado el Ruby correspondiente y ejecutar `bundle install` en la carpeta de proyecto.
+La instalación es como cualquier otro proyecto de Ruby / Rails. Tener instalado el Ruby correspondiente y ejecutar 💻 `bundle install` en la carpeta de proyecto.
 
 Para arrancar el server de Middleman:  
-`middleman server`
+💻 `middleman server`
 
 Normalmente podrás ver la app en:  
 `http://127.0.0.1:4567`
@@ -26,14 +26,14 @@ Este proyecto te permite usar CSS normal con clases... etc y bloques. Funciona c
 La magia que proporciona este proyecto es que cuando haces un `build` del email **el sistema se encarga de hacer el inline de todo en CSS en todos los sitios necesarios** y te permite hacer ajustes más sencillos.
 
 **Para hacer el `build` del email**  
-En la carpeta raiz ejecuta em la terminal: `middleman build`  
+En la carpeta raiz ejecuta em la terminal: 💻 `middleman build`  
 El email HTML resultante se generará en la carpeta `/build`.
 
 ## Disclaimers varios
 
 - Los lectores de correo cambian constántemente muchas veces sin avisar ni explicar en ningún sitio que transformaciones aplican en los emails antes de mostrárselos a los usuario. Si, has leido bien, **algunos lectores de correo reemplazan el HTML de los emails por su cuenta y no dicen cómo o porqué**.
-- Con algunos lectores fuimos incapaces de conseguir resultados decentes. El peor caso es el lector de correo de **Lotus Notes**. En estos momentos (2017) hay tres versiones en uso de **Lotus Notes** cada una de ellas **con su propio motor de HTML diferente** 😢.
-- Si podemos darte un consejo: **Evita dar soporte a Lotus Notes en la medida de lo posible**. Es un pozo de tiempo, no hay ningún tipo de documentación y algunas features son incompatibles entre si. La única solución es poner un enlace para ver el email / newsletter en el navegador.
+- Con algunos lectores fuimos incapaces de conseguir resultados decentes. El peor caso es el lector de correo de **Lotus Notes**. En estos momentos (2017) hay tres versiones en uso de **Lotus Notes** cada una de ellas **con su propio motor de HTML diferente** 😢
+- Si podemos darte un consejo: **Evita dar soporte a Lotus Notes en la medida de lo posible**. Es un pozo de tiempo, no hay ningún tipo de documentación y algunas features son incompatibles entre si. La única solución es **poner un enlace para ver el email / newsletter en el navegador.**
 
 ## Responsive
 
