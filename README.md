@@ -14,16 +14,19 @@ Para arrancar el server de Middleman:
 Normalmente podrás ver la app en:  
 `http://127.0.0.1:4567`
 
-
+Si lo has hecho todo correctamente deberías ver una página con el listado de los bloques:
+![Página de bloqes](https://raw.githubusercontent.com/simplelogica/html-mail-struct/master/source/assets/images/snapshot.png)
 
 ## Descripcción
 
 Este proyecto aspira a ser un **conjunto de bloques bien probados que permitan construir emails / newsletters en HTML que se vean lo mejor posible en el mayor número de lectores de correo.** Esta titánica tarea se llevó a cabo en 2016 durante una semana y este es el mejor resultado que pudimos conseguir.
 
-Este proyecto te permite usar CSS normal con clases... etc y bloques. Funciona como un repo de `middleman` normal y corriente. Puedes crear vistas, y en ellas **importar los diferentes partials de cada tipo de bloque.** Los bloques puedes encontrarlos en la carpeta: `source/email/blocks`
+Este proyecto te permite usar CSS normal con clases... etc y bloques. Funciona como un repo de `middleman` normal y corriente. Puedes crear vistas y en ellas **importar los diferentes partials de cada tipo de bloque.** Los bloques puedes encontrarlos en la carpeta: `source/email/blocks`
 
-La magia que proporciona este proyecto es que cuando haces un `build` del email con `middleman build` una gema **se encarga de hacer el inline de todo en CSS en todos los sitios necesarios** y te permite hacer ajustes más sencillos.
+La magia que proporciona este proyecto es que cuando haces un `build` del email **el sistema se encarga de hacer el inline de todo en CSS en todos los sitios necesarios** y te permite hacer ajustes más sencillos.
 
+**Para hacer el `build` del email**  
+En la carpeta raiz ejecuta em la terminal: `middleman build`  
 El email HTML resultante se generará en la carpeta `/build`.
 
 ## Disclaimers varios
