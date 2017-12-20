@@ -40,4 +40,8 @@ Así que ya que el responsive es muy incontrolable **es importante hacer emails 
 
 ## Futuro
 
-El que te escribe ( [@carloscabo](https://github.com/carloscabo) ) desea que los emails en HTML terminen desapareciendo algún día, o en su defecto que sean lo más sencillos posibles, o que sean una imagen metida en una tabla y a correr.
+El que te escribe ([@carloscabo](https://github.com/carloscabo)) desea que:
+- Los emails en HTML terminen **desapareciendo**
+- En su defecto sean lo más sencillos posible (una columan y pocos elementos)
+- O volver a una imagen metida en una tabla y a correr
+- O que un meteorito del tamaño de Texas impacte contra la tierra y tras la extinción masiva la civilización que surja (probablemente de insectos) haga las cosas mejor y nunca lleguen a crear los emails en HTML.
