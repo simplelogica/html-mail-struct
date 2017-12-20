@@ -23,7 +23,7 @@ Este proyecto aspira a ser un **conjunto de bloques bien probados que permitan c
 
 Este proyecto te permite usar CSS normal con clases... etc y bloques. Funciona como un repo de `middleman` normal y corriente. Puedes crear vistas y en ellas **importar los diferentes partials de cada tipo de bloque.** Los bloques puedes encontrarlos en la carpeta: `source/email/blocks`
 
-La magia que proporciona este proyecto es que cuando haces un `build` del email **el sistema se encarga de hacer el inline de todo en CSS en todos los sitios necesarios** y te permite hacer ajustes más sencillos.
+La magia que proporciona este proyecto es que cuando haces un `build` del email **la gema [middleman-roadie](https://github.com/vortizhe/middleman-roadie) se encarga de hacer el inline de todo en CSS en todos los sitios necesarios** y te permite hacer ajustes más sencillos (esta gema es un _wrapper_ para [roadie](https://github.com/Mange/roadie)).
 
 **Para hacer el `build` del email**  
 En la carpeta raiz ejecuta em la terminal: 💻 `middleman build`  
@@ -50,6 +50,8 @@ Por favor, si conoces más herramientas útiles que puedan simplificar este tema
 - [Propiedades de CSS soportadas por cada lector de correo](https://www.campaignmonitor.com/css/color-background/background-attachment/). No pierdas tiempo y **consulta esto antes de usar cualquier propiedad.**
 - [Porcentaje de uso de cada lecto de correo](https://emailclientmarketshare.com/). Para justificar 
 - [Clientes de correo que dan soporte a _mediaqueries_](https://litmus.com/help/email-clients/media-query-support/). Es decir los que soportan un _responsive_ real que se puede controlar. El resto son hacks, por lo tanto incontrolables.
+- [Midddleman-roadie](https://github.com/vortizhe/middleman-roadie) la gema que hace la magia del _inline_de_los estilos.
+- [Roadie](https://github.com/Mange/roadie) la gema original de _roadie_.
 
 ## Futuro
 
